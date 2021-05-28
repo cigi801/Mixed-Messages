@@ -1,4 +1,4 @@
-const greetings = ['Bonjour', 'Hola', 'Ni Hao', 'Konnichiwa', 'Hello'];
+const greetings = ['Bonjour', 'Hola', 'Ni Hao', 'Konnichiwa', 'Hello', 'Zdravstvuyte', 'Salve', 'Guten Tag', 'Olá', 'Namaskar'];
 const randomGreeting = greetings[Math.floor(Math.random() * greetings.length)];
 
 
