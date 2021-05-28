@@ -1,7 +1,21 @@
+h1 {
+  font-size: 36px;
+  font-weight: 900;
+  padding: 75px 20px 20px 20px; 
+  text-shadow: 2px 2px 2px rgb(10, 85, 104);
+}
+
 header {
+  height: 200px;
   display: flex;
   justify-content: center
 }
+
+text {
+  display: flex;
+  justify-content: center;
+}
+
 
 body {
   display: flex;
@@ -28,4 +42,14 @@ p {
   background-color: #555341;
   color: #fff;
   cursor: pointer;
+}
+
+.background {
+  background-size: 100% 200px;
+}
+
+
+.background-image {
+  background-image: url(assets/world.1.jpg);
+  background-size: 100% 200px;
 }
