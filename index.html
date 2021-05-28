@@ -8,12 +8,24 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div>
     <header>
         <h1>Greetings from around the world!</h1>
     </header>
-    <button onclick="greet">Click Here</button>
+    <div>
+    <div class="user-input">
+      What's your name?
     
+    <input type="text" id="txtName" placeholder="Enter Name Here" />
+    <input type="submit" onclick="greet()" />
+    </div>
 
+<div class="user-input">
+<input type="string" id="txtOutput" />
+</div>
+    </div>
+ 
 <script src="greetings.js"></script>
+</div>
 </body>
 </html>

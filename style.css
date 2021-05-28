@@ -1,4 +1,31 @@
 header {
-    display: flex;
-    justify-content: center
-  }
+  display: flex;
+  justify-content: center
+}
+
+body {
+  display: flex;
+  justify-content: center
+}
+
+p {
+  font-family: 'Georgia', serif, sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.user-input {
+  min-width: 303px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 19px;
+}
+
+.button {
+  background-color: #555341;
+  color: #fff;
+  cursor: pointer;
+}
